@@ -1678,7 +1678,7 @@ div#notebook {
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[2]:
+In&nbsp;[7]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -1699,7 +1699,7 @@ In&nbsp;[2]:
     <span class="k">for</span> <span class="n">prev</span><span class="p">,</span> <span class="n">current</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">tokens</span><span class="p">,</span> <span class="n">tokens</span><span class="p">[</span><span class="mi">1</span><span class="p">:]):</span>
         <span class="n">markov</span><span class="p">[</span><span class="n">prev</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">current</span><span class="p">)</span>
 
-    <span class="k">print</span> <span class="s">&quot;Dicationary: &quot;</span>
+    <span class="k">print</span> <span class="s">&quot;Dictionary: &quot;</span>
     <span class="k">print</span> <span class="n">markov</span>
     
     <span class="c">#define the average sentence length</span>
@@ -1735,7 +1735,7 @@ In&nbsp;[2]:
 <pre>
 Tokens: 
 [&apos;lorem&apos;, &apos;ipsum&apos;, &apos;is&apos;, &apos;simply&apos;, &apos;dummy&apos;, &apos;text&apos;, &apos;of&apos;, &apos;the&apos;, &apos;printing&apos;, &apos;and&apos;, &apos;typesetting&apos;, &apos;industry&apos;, &apos;lorem&apos;, &apos;ipsum&apos;, &apos;has&apos;, &apos;been&apos;, &apos;the&apos;, &quot;industry&apos;s&quot;, &apos;standard&apos;, &apos;dummy&apos;, &apos;text&apos;, &apos;ever&apos;, &apos;since&apos;, &apos;the&apos;, &apos;00s&apos;, &apos;when&apos;, &apos;an&apos;, &apos;unknown&apos;, &apos;printer&apos;, &apos;took&apos;, &apos;a&apos;, &apos;galley&apos;, &apos;of&apos;, &apos;type&apos;, &apos;and&apos;, &apos;scrambled&apos;, &apos;it&apos;, &apos;to&apos;, &apos;make&apos;, &apos;a&apos;, &apos;type&apos;, &apos;specimen&apos;, &apos;book&apos;, &apos;it&apos;, &apos;has&apos;, &apos;survived&apos;, &apos;not&apos;, &apos;only&apos;, &apos;five&apos;, &apos;centuries&apos;, &apos;but&apos;, &apos;also&apos;, &apos;the&apos;, &apos;leap&apos;, &apos;into&apos;, &apos;electronic&apos;, &apos;typesetting&apos;, &apos;remaining&apos;, &apos;essentially&apos;, &apos;unchanged&apos;, &apos;it&apos;, &apos;was&apos;, &apos;popularised&apos;, &apos;in&apos;, &apos;the&apos;, &apos;0s&apos;, &apos;with&apos;, &apos;the&apos;, &apos;release&apos;, &apos;of&apos;, &apos;letraset&apos;, &apos;sheets&apos;, &apos;containing&apos;, &apos;lorem&apos;, &apos;ipsum&apos;, &apos;passages&apos;, &apos;and&apos;, &apos;more&apos;, &apos;recently&apos;, &apos;with&apos;, &apos;desktop&apos;, &apos;publishing&apos;, &apos;software&apos;, &apos;like&apos;, &apos;aldus&apos;, &apos;pagemaker&apos;, &apos;including&apos;, &apos;versions&apos;, &apos;of&apos;, &apos;lorem&apos;, &apos;ipsum&apos;]
-Dicationary: 
+Dictionary: 
 {&apos;and&apos;: [&apos;typesetting&apos;, &apos;scrambled&apos;, &apos;more&apos;], &apos;pagemaker&apos;: [&apos;including&apos;], &apos;passages&apos;: [&apos;and&apos;], &apos;sheets&apos;: [&apos;containing&apos;], &apos;galley&apos;: [&apos;of&apos;], &apos;text&apos;: [&apos;of&apos;, &apos;ever&apos;], &apos;is&apos;: [&apos;simply&apos;], &apos;in&apos;: [&apos;the&apos;], &apos;it&apos;: [&apos;to&apos;, &apos;has&apos;, &apos;was&apos;], &apos;unchanged&apos;: [&apos;it&apos;], &apos;an&apos;: [&apos;unknown&apos;], &apos;00s&apos;: [&apos;when&apos;], &apos;simply&apos;: [&apos;dummy&apos;], &apos;type&apos;: [&apos;and&apos;, &apos;specimen&apos;], &apos;electronic&apos;: [&apos;typesetting&apos;], &apos;was&apos;: [&apos;popularised&apos;], &apos;containing&apos;: [&apos;lorem&apos;], &apos;publishing&apos;: [&apos;software&apos;], &apos;also&apos;: [&apos;the&apos;], &apos;unknown&apos;: [&apos;printer&apos;], &apos;make&apos;: [&apos;a&apos;], &apos;since&apos;: [&apos;the&apos;], &apos;when&apos;: [&apos;an&apos;], &apos;leap&apos;: [&apos;into&apos;], &apos;been&apos;: [&apos;the&apos;], &apos;desktop&apos;: [&apos;publishing&apos;], &apos;to&apos;: [&apos;make&apos;], &apos;only&apos;: [&apos;five&apos;], &apos;book&apos;: [&apos;it&apos;], &apos;typesetting&apos;: [&apos;industry&apos;, &apos;remaining&apos;], &quot;industry&apos;s&quot;: [&apos;standard&apos;], &apos;has&apos;: [&apos;been&apos;, &apos;survived&apos;], &apos;ever&apos;: [&apos;since&apos;], &apos;into&apos;: [&apos;electronic&apos;], &apos;more&apos;: [&apos;recently&apos;], &apos;printer&apos;: [&apos;took&apos;], &apos;recently&apos;: [&apos;with&apos;], &apos;centuries&apos;: [&apos;but&apos;], &apos;dummy&apos;: [&apos;text&apos;, &apos;text&apos;], &apos;with&apos;: [&apos;the&apos;, &apos;desktop&apos;], &apos;specimen&apos;: [&apos;book&apos;], &apos;took&apos;: [&apos;a&apos;], &apos;but&apos;: [&apos;also&apos;], &apos;standard&apos;: [&apos;dummy&apos;], &apos;five&apos;: [&apos;centuries&apos;], &apos;survived&apos;: [&apos;not&apos;], &apos;not&apos;: [&apos;only&apos;], &apos;lorem&apos;: [&apos;ipsum&apos;, &apos;ipsum&apos;, &apos;ipsum&apos;, &apos;ipsum&apos;], &apos;a&apos;: [&apos;galley&apos;, &apos;type&apos;], &apos;ipsum&apos;: [&apos;is&apos;, &apos;has&apos;, &apos;passages&apos;], &apos;essentially&apos;: [&apos;unchanged&apos;], &apos;like&apos;: [&apos;aldus&apos;], &apos;versions&apos;: [&apos;of&apos;], &apos;of&apos;: [&apos;the&apos;, &apos;type&apos;, &apos;letraset&apos;, &apos;lorem&apos;], &apos;industry&apos;: [&apos;lorem&apos;], &apos;remaining&apos;: [&apos;essentially&apos;], &apos;0s&apos;: [&apos;with&apos;], &apos;scrambled&apos;: [&apos;it&apos;], &apos;printing&apos;: [&apos;and&apos;], &apos;letraset&apos;: [&apos;sheets&apos;], &apos;popularised&apos;: [&apos;in&apos;], &apos;release&apos;: [&apos;of&apos;], &apos;including&apos;: [&apos;versions&apos;], &apos;the&apos;: [&apos;printing&apos;, &quot;industry&apos;s&quot;, &apos;00s&apos;, &apos;leap&apos;, &apos;0s&apos;, &apos;release&apos;], &apos;aldus&apos;: [&apos;pagemaker&apos;], &apos;software&apos;: [&apos;like&apos;]}
 
 </pre>
@@ -1743,12 +1743,12 @@ Dicationary:
 </div>
 
 <div class="output_area"><div class="prompt output_prompt">
-    Out[2]:</div>
+    Out[7]:</div>
 
 
 <div class="output_text output_subarea output_pyout">
 <pre>
-&apos;Dummy text of lorem ipsum has been the 0s with the printing.&apos;
+&quot;Industry&apos;s standard dummy text ever since the industry&apos;s standard dummy text of lorem ipsum.&quot;
 </pre>
 </div>
 
